@@ -192,12 +192,11 @@ Visual representation of:
 ## 🔧 Configuration
 
 ### Next.js Configuration
-The project uses Next.js 15 with the App Router. Configuration is in `next.config.mjs`:
-- TypeScript build errors are ignored (development convenience)
-- Images are unoptimized for portability
+The project uses Next.js 15 with the App Router. Key configurations in `next.config.mjs`:
+- Images are unoptimized for portability and faster builds
 
 ### TypeScript Configuration
-Strict type checking is enabled with modern ES6+ features and Next.js plugin support.
+Strict type checking is enabled with modern ES6+ features and Next.js plugin support for enhanced type safety.
 
 ### Tailwind CSS
 Configured with Tailwind CSS 4.1.9 and the animate plugin for smooth transitions and animations.
